@@ -14,7 +14,7 @@ let [rows, cols] = [Math.ceil(cw/rate), Math.ceil(ch/rate)];
 //有效粒子的集合
 let particles = [],
     particleActive = 0;
-const maxPaticleActive = 40;
+const maxPaticleActive = 60;
 //粒子对象构建方法
 function Particle(x , y, fillstyle){
     //x,y原本粒子的行列位置，实际像素位置为x*rate，y*rate
